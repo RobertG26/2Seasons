@@ -1,0 +1,43 @@
+body {
+    display: block;
+    
+    margin-top: 10%;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: 8%;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:200px;
+  height:300px;
+}
+
+@media(max-width: 600px){
+  #boxes .box .left{
+    position: relative;
+    top: 10%;
+    width: 300%;
+  }
+  #boxes .box .mid{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+  }
+  #boxes .box .right{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+  }
+}
